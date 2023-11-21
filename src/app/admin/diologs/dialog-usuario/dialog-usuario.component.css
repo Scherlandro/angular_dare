@@ -1,0 +1,13 @@
+
+.mat-card-person{
+  width: auto;
+  height: 500px;
+  padding-top: 100px;
+  background: linear-gradient(145deg, #c3aedb, #b29edb);
+  box-shadow:  20px 20px 60px #b2acc4,
+  -20px -20px 60px #3d5257;
+  color: #1a2b15;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+}

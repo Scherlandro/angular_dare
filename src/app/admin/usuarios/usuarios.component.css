@@ -1,0 +1,68 @@
+body{
+  background-color: #067979;
+}
+.mat-card-table{
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 5px;
+  padding: 15px;
+  background: linear-gradient(145deg, #c3aedb, #b29edb);
+  box-shadow:  20px 20px 60px #b2acc4,
+  -20px -20px 60px #3d5257;
+  color: #1a2b15;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 10px;
+}
+table {
+  alignment: center;
+  width: 100%;
+  height: auto;
+  background-color: #c3deef;
+}
+
+.input-table{
+  font-size: 20px;
+}
+.loading-spinner{
+  padding: 25px;
+  background: rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add{
+  background-color: #0c879a;
+  color: #00030a;
+  padding-right: 18px;
+}
+
+.list{
+  background-color: #0c9a7e;
+  color: #00030a;
+  padding-right: 18px;
+}
+.edit{
+  color: #184024;
+  padding-right: 18px;
+}
+.delete{
+  color: #580742;
+  padding-left: 18px;
+}
+
+.mat-header{
+  width: 8rem;
+}
+
+.button-gradient {
+  min-width: 180px;
+  width: auto;
+  height: auto;
+  background-color: rgba(51, 33, 83, 0.07);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}

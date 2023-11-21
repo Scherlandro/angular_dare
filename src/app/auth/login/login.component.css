@@ -1,0 +1,127 @@
+
+.container{
+  --color-light-50: #f8fafc;
+  --color-dark-50: #797984;
+  --color-dark-100: #312d37;
+  --color-dark-900: #000;
+  --color-purple-50: #c3aedb;
+  --color-purple-100: #c3aedb;
+  --color-purple-200: #c3aedb;
+  --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200));
+  box-shadow: 10px 5px 5px rgba(10, 40, 30, 0.4);
+  padding: 20px 40px 20px 40px;
+  border-radius: 30px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-gradient);
+}
+.conteudo-login{
+  display: flex;
+  flex-direction: column;
+}
+.card-login{
+  width: 300px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.mat-card.mat-input-element{
+  width: 265px;
+  background-color: darkgray;
+  color: lawngreen;
+  box-shadow: 10px 5px 5px rgba(1, 10, 20, 0.4);
+}
+.bottom-container{
+  background: var(--color-gradient);
+  color: lawngreen;
+  box-shadow: 10px 5px 5px rgba(10, 40, 30, 0.4);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.component-g{
+  min-width: 200px;
+  width: auto;
+  min-height: 50px;
+  height: auto;
+  border-radius: 10px;
+  background-image: -webkit-linear-gradient(top, #cab5e8, #34db85);
+  background-image: -moz-linear-gradient(top, #cbb8e8, #34db85);
+  background-image: -ms-linear-gradient(top, #ab81e2, #34db85);
+  background-image: -o-linear-gradient(top, #ab81e2, #34db85);
+  background-image: linear-gradient(to bottom, #ab81e2, #34db85);
+}
+.bottom-alert{
+  background: var(--color-gradient);
+  font-family: "Arial Black";
+  color: #fc1d00;
+  box-shadow: 10px 5px 5px rgba(92, 58, 189, 0.4);
+  border-radius: 15px;
+}
+.input-login {
+  padding-inline-start: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  min-height: 25px;
+  height: auto;
+  max-width: 300px;
+  width: auto;
+  color: #021108;
+  background: rgba(0, 3, 10, 0.05);
+  box-shadow: 10px 5px 5px rgba(10, 40, 30, 0.4);
+}
+
+.cursor-home:hover{
+  cursor: pointer;
+}
+
+
+.spinner {
+  position: relative;
+  width: 15.7px;
+  height: 15.7px;
+}
+
+.spinner div {
+  animation: spinner-4t3wzl 1.875s infinite backwards;
+  background-color: #474bff;
+  border-radius: 50%;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.spinner div:nth-child(1) {
+  animation-delay: 0.15s;
+  background-color: rgba(71, 75, 255, 0.9);
+}
+
+.spinner div:nth-child(2) {
+  animation-delay: 0.3s;
+  background-color: rgba(71, 75, 255, 0.8);
+}
+
+.spinner div:nth-child(3) {
+  animation-delay: 0.45s;
+  background-color: rgba(71, 75, 255, 0.7);
+}
+
+.spinner div:nth-child(4) {
+  animation-delay: 0.6s;
+  background-color: rgba(71, 75, 255, 0.6);
+}
+
+.spinner div:nth-child(5) {
+  animation-delay: 0.75s;
+  background-color: rgba(71, 75, 255, 0.5);
+}
+
+@keyframes spinner-4t3wzl {
+  0% {
+    transform: rotate(0deg) translateY(-200%);
+  }
+
+  60%, 100% {
+    transform: rotate(360deg) translateY(-200%);
+  }
+}

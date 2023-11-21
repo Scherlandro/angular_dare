@@ -1,0 +1,33 @@
+/*@import "~swiper/css";
+@import "~swiper/css/effect-cube";
+@import "~swiper/css/pagination";*/
+
+
+.toolbar img {
+  margin: 0 16px;
+}
+.div-top{
+  margin: 280px 0px 0px 8px ;
+  display: grid;
+  grid-gap: 10px;
+
+}
+.header-image {
+  background-image: url('~src/assets/image/planeta.png');
+  background-size:cover;
+}
+.menu-lable{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr ;
+    grid-gap: 2px;
+  border-radius: 30px;
+  background-color: rgba(4, 28, 75, 0);
+}
+.lable-link{
+  padding: 5px;
+  text-decoration-color: rgba(255, 255, 255, 0);
+  width: fit-content;
+  color: #00030a;
+}
+

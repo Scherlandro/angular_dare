@@ -1,0 +1,21 @@
+
+
+
+
+<form *ngIf="mostrarMenuHeader" class="nav-head component-gradient ">
+
+
+  <button mat-button class="comp-menu" routerLink="adHome">Home</button>
+  <button mat-button class="comp-menu" routerLink="usuarios">Usuarios</button>
+  <button mat-button class="comp-menu" routerLink="album">Album</button>
+
+  <ul>
+    <div>Welcame! {{user.name}} </div>
+  </ul>
+
+  <button mat-button class="comp-menu" (click)="logout()">
+    <mat-icon>logout</mat-icon>
+  </button>
+
+
+</form>
